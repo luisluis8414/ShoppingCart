@@ -9,12 +9,13 @@ export function Navbar(){
                 <Nav.Link to="/" as={NavLink}>
                     Home
                 </Nav.Link>
-                <Nav.Link to="/about" as={NavLink}>
-                    About
-                </Nav.Link>
                 <Nav.Link to="/store" as={NavLink}>
                     Store
                 </Nav.Link>
+                <Nav.Link to="/about" as={NavLink}>
+                    About
+                </Nav.Link>
+                
             </Nav>
             <Button style={{width:"3rem", height:"3rem", position:"relative"}}
             variant="outline-primary" className="rounded-circle">
